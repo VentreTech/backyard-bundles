@@ -1,0 +1,31 @@
+
+.hero-image {
+    background-image: url("http://via.placeholder.com/1800x600");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+
+$morning: #CAE4DB;
+$honey: #DCAE1D;
+$cerulean: #00303F;
+$mist: #7A9D96;
+
+$primary: $honey;
+$primary-invert: $cerulean;
+$dark: $cerulean;
+$warning: $honey;
+$link: $cerulean;
+
+
+.navbar-brand {
+    .navbar-item {
+        color: $warning;
+    }
+}
+
+$variable-columns: false;
+@import "~bulma/bulma";
