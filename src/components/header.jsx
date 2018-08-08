@@ -29,6 +29,7 @@ const Header = ({ location }) => {
                                             <li className="has-text-primary"> Item 1</li>
                                             <li className="has-text-primary"> Item 1</li>
                                             <li className="has-text-primary"> Item 1</li>
+                                            <li className="has-text-primary"> Item 1</li>
                                         </ul>
 
 
